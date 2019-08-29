@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": "mimaMIPA1_Booger8",
+    "password": "",
     "database": "hamazon",
     "host": "127.0.0.1",
     "dialect": "mysql",
@@ -9,7 +9,7 @@
   },
   "test": {
     "username": "root",
-    "password": "mimaMIPA1_Booger8",
+    "password": "",
     "database": "hamazon",
     "host": "127.0.0.1",
     "dialect": "mysql",
@@ -18,7 +18,8 @@
   "production": {
     "username": "root",
     "password": null,
-    "database": "database_production",
+    "database": "hamazon",
+    "use_env_variable": "JAWSDB_URL",
     "host": "127.0.0.1",
     "dialect": "mysql",
     "operatorsAliases": false
